@@ -61,17 +61,63 @@ min-height:100vh;
     padding-right:0px;
     padding-left:13px;
 }
-
+.hrStyle{
+    
+}
 
 
 .wrapper{
     margin-top:20px;
-    max-width:920px;
-    height:auto;
-    border:1px solid black;
+    width:920px;
+    
     padding:0px 20px 0px 20px;
     background-color:#ffffff;
-    border:2px solid #dddddd;
+    border:1px solid #dddddd;
+}
+
+.formWrapper{
+    margin-top:20px;
+    width: 920px;
+    height:608px;
+    padding:0px 20px 0px 20px;
+    background-color: #ffffff;
+    border:1px solid #dddddd;
+}
+
+.formstyle{
+    display:flex;
+    flex-direction:column;
+    margin-top:12px;
+    
+}
+.nameText{
+    font-size:14px;
+    margin-top:20px;
+}
+.inputboxStyle{
+    border:1px solid #dddddd;
+    margin-top:12px;
+    padding:0px 12px 0px 12px;
+}
+
+
+.inputHeight{
+    height:35px;
+}
+#messageText{
+    height:200px;
+    resize: vertical;
+    overflow:auto;
+    padding:12px 12px 0px 12px;
+}
+
+.submitButton{
+    width:118px;
+    height:42px;
+    margin-top:22px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    font-size:14px;
 }
 
 
@@ -82,19 +128,19 @@ min-height:100vh;
 
 
 .footer{
-    display:flex;
-    flex-direction:column;
-    justify-content: flex-start;
-    align-self:stretch;
-    height:46px;   
+align-self:stretch;
+height:53px;   
 margin-top:auto;
 background-color:#666666;
 }
 .tealBar{
-    margin-bottom:0;
     background-color:#4aaaa5;
-    height:7px;
-    
+    height:5px;  
+}
+
+.footerText{
+    display:flex;
+    justify-content: center;
 }
 
 #aboutMe{
@@ -104,6 +150,6 @@ background-color:#666666;
 }
 
 .profilePhoto{
-    margin-top:27px;
+    margin-top:10px;
 }
 
