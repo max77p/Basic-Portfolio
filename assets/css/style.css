@@ -1,0 +1,113 @@
+body{
+    background-image:url('../images/dust_scratches.png');
+    margin:0;
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+min-height:100vh;
+
+    
+}
+
+.topBar{
+    display:flex;
+    background-color:#ffffff;
+    height:70px;
+    align-self:stretch;
+    justify-content:center;
+    border-bottom:2px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.containerInsideBar{
+    background-color:#ffffff;
+    height:70px;
+    display:flex;
+    justify-content:space-between;
+    width:960px;
+
+}
+
+.nameBar{
+    background-color:#4aaaa5;
+    width:190px;
+    padding:0px 20px 0px 20px;
+    text-align: center;
+
+}
+#myName{
+    color:#ffffff;
+    
+}
+.sectionBar{
+    display:flex;
+    align-self:center;
+   
+}
+.btn{
+    border:none;
+    font-size:15px;
+}
+
+.aboutButton,.portfolioButton{
+    border-right:1px solid;
+    padding-right:13px;
+    padding-left:13px;
+}
+.contactButton{
+    padding-right:0px;
+    padding-left:13px;
+}
+
+
+
+.wrapper{
+    margin-top:20px;
+    max-width:920px;
+    height:auto;
+    border:1px solid black;
+    padding:0px 20px 0px 20px;
+    background-color:#ffffff;
+    border:2px solid #dddddd;
+  
+}
+
+.hrStyle{
+  
+}
+
+.profilePhoto{
+    float:left;
+    margin:0px 27px 27px 0px;
+}
+.bioText{
+
+}
+
+.footer{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    width:100%;
+    height:46px;   
+margin-top:auto;
+background-color:#666666;
+}
+.tealBar{
+    margin-bottom:0;
+    background-color:#4aaaa5;
+    height:7px;
+    
+}
+
+#aboutMe{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    margin-bottom:27px;
+}
+
+.profilePhoto{
+    margin-top:27px;
+}
+
