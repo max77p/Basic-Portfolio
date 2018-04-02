@@ -26,7 +26,6 @@ min-height:100vh;
     display:flex;
     justify-content:space-between;
     width:960px;
-
 }
 
 .nameBar{
@@ -45,6 +44,33 @@ min-height:100vh;
     align-self:center;
     
 }
+
+/* Underline From Center */
+.hvr-underline-from-center {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);  
+  }
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #4aaaa5;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+
 .btn{
     border:none;
     font-size:15px;
@@ -62,32 +88,36 @@ min-height:100vh;
     padding-left:13px;
 }
 .hrStyle{
-    
+    height:2px;
+    background-color:#dddddd;
+    border:none;
 }
 
 
 .wrapper{
     margin-top:20px;
-    width:920px;
-    
+    max-width:920px;
     padding:0px 20px 0px 20px;
     background-color:#ffffff;
     border:1px solid #dddddd;
+    max-height:618px;
+    overflow:scroll;
 }
+
 
 .formWrapper{
     margin-top:20px;
-    width: 920px;
-    height:608px;
+    max-width: 920px;
     padding:0px 20px 0px 20px;
     background-color: #ffffff;
     border:1px solid #dddddd;
 }
 
 .formstyle{
-    display:flex;
-    flex-direction:column;
-    margin-top:12px;
+   display:flex;
+   flex-direction:column;
+   width:920px;
+   margin-top:12px;
     
 }
 .nameText{
@@ -110,6 +140,38 @@ min-height:100vh;
     overflow:auto;
     padding:12px 12px 0px 12px;
 }
+
+/*highlight input field area on hover*/
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+  }
+
+  input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px #4aaaa5;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #4aaaa5;
+  }
+
+  input[type=text]:hover, textarea:hover{
+    box-shadow: 0 0 5px #4aaaa5;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #4aaaa5;
+
+  }
+
+
+  /*end of highlight field*/
+
+
 
 .submitButton{
     width:118px;
