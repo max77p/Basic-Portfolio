@@ -78,6 +78,10 @@ min-height:100vh;
     color: #777777;
 }
 
+.btn:focus{
+    outline:none;
+}
+
 .aboutButton,.portfolioButton{
     border-right:1px solid;
     padding-right:13px;
@@ -87,11 +91,7 @@ min-height:100vh;
     padding-right:0px;
     padding-left:13px;
 }
-.hrStyle{
-    height:2px;
-    background-color:#dddddd;
-    border:none;
-}
+
 
 
 .wrapper{
@@ -100,9 +100,48 @@ min-height:100vh;
     padding:0px 20px 0px 20px;
     background-color:#ffffff;
     border:1px solid #dddddd;
-    max-height:618px;
+    max-height:918px;
     overflow:scroll;
 }
+
+#aboutMe{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    margin-bottom:27px;
+}
+
+.hrStyle{
+    height:2px;
+    background-color:#dddddd;
+    width:100%;
+    
+}
+
+.wrapperPort{
+display:flex;
+flex-direction:column;
+    max-width:920px;
+    padding:0px 20px 0px 20px;
+    background-color:#ffffff;
+    border:1px solid #dddddd;
+  min-height:750px;    
+}
+.projectContainer{
+    margin-top:10px;
+    max-height:700px;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+max-width:80%;
+overflow-y:scroll;
+
+}
+
+img{
+margin-right:30px;
+margin-top:27px;
+}
+
 
 
 .formWrapper{
@@ -205,11 +244,6 @@ background-color:#666666;
     justify-content: center;
 }
 
-#aboutMe{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#4aaaa5;
-    margin-bottom:27px;
-}
 
 .profilePhoto{
     margin-top:10px;
