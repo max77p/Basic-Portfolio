@@ -129,11 +129,12 @@ flex-direction:column;
 }
 
 .projectContainer{
+    display:flex;
+    flex-wrap:wrap;
 margin-top:10px;
 max-height:100%;
-max-width:80%;
+width:80%;
 overflow-y:scroll;
-border:2px solid green;
 
 }
 
@@ -255,6 +256,8 @@ background-color:#666666;
    display:flex;
    align-items: center;
  max-width:227px;
+ width: 100%;
+ margin-right:20px;
 
 }
 
