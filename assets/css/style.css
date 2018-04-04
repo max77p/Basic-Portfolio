@@ -120,20 +120,20 @@ min-height:100vh;
 .wrapperPort{
 display:flex;
 flex-direction:column;
-    max-width:920px;
+   max-width:920px;
+   width:100%;
     padding:0px 20px 0px 20px;
     background-color:#ffffff;
     border:1px solid #dddddd;
   min-height:740px;    
 }
+
 .projectContainer{
-    margin-top:10px;
-    max-height:100%;
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
+margin-top:10px;
+max-height:100%;
 max-width:80%;
 overflow-y:scroll;
+border:2px solid green;
 
 }
 
@@ -146,8 +146,8 @@ margin-top:27px;
 
 .formWrapper{
     margin-top:20px;
-    width:920px;
-    max-width:100%;
+    max-width:920px;
+    width:100%;
     padding:0px 20px 0px 20px;
     background-color: #ffffff;
     border:1px solid #dddddd;
@@ -250,3 +250,20 @@ background-color:#666666;
     margin-top:10px;
 }
 
+
+.individualProject{
+   display:flex;
+   align-items: center;
+ max-width:227px;
+
+}
+
+.projectInfo{
+position:absolute;
+margin-top:30px;
+max-width: 227px;
+width:100%;
+
+
+
+}
