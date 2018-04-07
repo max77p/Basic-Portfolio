@@ -97,6 +97,7 @@ min-height:100vh;
 .wrapper{
     margin-top:20px;
     max-width:920px;
+    width:100%;
     padding:0px 20px 0px 20px;
     background-color:#ffffff;
     border:1px solid #dddddd;
