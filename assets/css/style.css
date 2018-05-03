@@ -244,8 +244,9 @@ input[type=text], textarea {
 
 .footer{
 align-self:stretch;
-height:53px;   
-margin-top:auto;
+height:53px; 
+margin-top:auto;  
+bottom:0;
 background-color:#666666;
 }
 .tealBar{
